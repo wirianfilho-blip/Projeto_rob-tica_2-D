@@ -1,1 +1,241 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Evolução da Infraestrutura Escolar no Paraná</title>
+    <style>
+        :root {
+            --primary: #1e3a8a;
+            --accent: #2563eb;
+            --bg: #f8fafc;
+            --card-bg: #ffffff;
+            --text: #1e293b;
+            --text-muted: #64748b;
+            --border: #e2e8f0;
+        }
 
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            font-family: 'Segoe UI', system-ui, -apple-system, sans-serif;
+            background-color: var(--bg);
+            color: var(--text);
+            line-height: 1.6;
+            padding: 40px 20px;
+        }
+
+        .container {
+            max-width: 900px;
+            margin: 0 auto;
+        }
+
+        header {
+            text-align: center;
+            margin-bottom: 40px;
+            padding-bottom: 20px;
+            border-bottom: 3px solid var(--primary);
+        }
+
+        header h1 {
+            color: var(--primary);
+            font-size: 2.2rem;
+            margin-bottom: 10px;
+        }
+
+        header p {
+            color: var(--text-muted);
+            font-size: 1.1rem;
+        }
+
+        .image-card {
+            background: var(--card-bg);
+            border-radius: 12px;
+            box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+            margin-bottom: 40px;
+            overflow: hidden;
+            border: 1px solid var(--border);
+        }
+
+        .image-card img {
+            width: 100%;
+            height: auto;
+            display: block;
+        }
+
+        .card-content {
+            padding: 24px;
+        }
+
+        .card-tag {
+            display: inline-block;
+            padding: 4px 12px;
+            border-radius: 20px;
+            font-size: 0.85rem;
+            font-weight: 600;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+            margin-bottom: 12px;
+        }
+
+        .tag-before {
+            background-color: #fee2e2;
+            color: #991b1b;
+        }
+
+        .tag-after {
+            background-color: #dcfce7;
+            color: #166534;
+        }
+
+        .card-title {
+            font-size: 1.5rem;
+            color: var(--primary);
+            margin-bottom: 12px;
+        }
+
+        .card-description {
+            color: var(--text);
+            font-size: 1rem;
+        }
+
+        .card-description ul {
+            margin-top: 10px;
+            padding-left: 20px;
+        }
+
+        .card-description li {
+            margin-bottom: 6px;
+        }
+
+        footer {
+            text-align: center;
+            margin-top: 50px;
+            padding-top: 20px;
+            color: var(--text-muted);
+            font-size: 0.9rem;
+            border-top: 1px solid var(--border);
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <header>
+            <h1>Evolução da Infraestrutura Escolar</h1>
+            <p>Comparativo e transformação dos espaços educativos no Estado do Paraná</p>
+        </header>
+
+        <!-- Imagem 1 -->
+        <div class="image-card">
+            <img src="saladeinformatica2.png" alt="Sala de Informática Atualizada">
+            <div class="card-content">
+                <span class="card-tag tag-after">Infraestrutura Moderna</span>
+                <h2 class="card-title">1. Laboratório de Informática Modernizado</h2>
+                <div class="card-description">
+                    <p>O novo laboratório de informática oferece uma estrutura completa e moderna para o aprendizado digital dos alunos:</p>
+                    <ul>
+                        <li><strong>Equipamentos de alta qualidade:</strong> Headsets profissionais novos e organizados em prateleiras dedicadas.</li>
+                        <li><strong>Postos de trabalho estruturados:</strong> Monitores modernos com mensagem de boas-vindas ("Ready to Learn, Create and Evolve!").</li>
+                        <li><strong>Ambiente climatizado e decorado:</strong> Símbolos do Estado do Paraná (bandeira e mapa) valorizando a identidade regional.</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <!-- Imagem 2 -->
+        <div class="image-card">
+            <img src="saladeinformatica1.png" alt="Sala de Informática Anterior">
+            <div class="card-content">
+                <span class="card-tag tag-before">Desafio de Manutenção</span>
+                <h2 class="card-title">2. Laboratório de Informática (Cenário Anterior)</h2>
+                <div class="card-description">
+                    <p>Visão dos desafios enfrentados na gestão de recursos e manutenção de equipamentos tecnológicos:</p>
+                    <ul>
+                        <li><strong>Acúmulo de equipamentos danificados:</strong> Grande pilha de fones de ouvido quebrados no canto da sala.</li>
+                        <li><strong>Necessidade de reposição:</strong> Evidencia a importância da renovação constante de periféricos para garantir o aprendizado ininterrupto.</li>
+                        <li><strong>Foco pedagógico:</strong> Monitores exibindo "Computer Science Makes Ideas Real" e "Let's Learn Together!".</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <!-- Imagem 3 -->
+        <div class="image-card">
+            <img src="saladeaula2.jpeg" alt="Sala de Aula Reformada">
+            <div class="card-content">
+                <span class="card-tag tag-after">Estrutura Renovada</span>
+                <h2 class="card-title">3. Sala de Aula do Ensino Fundamental / Médio</h2>
+                <div class="card-description">
+                    <p>Ambiente escolar moderno na Escola Estadual Dr. Assis Brasil (Curitiba):</p>
+                    <ul>
+                        <li><strong>Aulas estruturadas:</strong> Quadro-negro com disciplinas bem definidas (Língua Portuguesa - Modernismo Literário).</li>
+                        <li><strong>Climatização e organização:</strong> Ventiladores de parede novos, mapa da América do Sul e linha do tempo histórica.</li>
+                        <li><strong>Integração e uniforme:</strong> Alunos devidamente uniformizados e professora conduzindo a explicação.</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <!-- Imagem 4 -->
+        <div class="image-card">
+            <img src="saladeaula1.png" alt="Sala de Aula Antiga">
+            <div class="card-content">
+                <span class="card-tag tag-before">Necessidade de Reforma</span>
+                <h2 class="card-title">4. Sala de Aula em Processo de Melhoria</h2>
+                <div class="card-description">
+                    <p>Registro do espaço físico escolar demandando reformas de infraestrutura:</p>
+                    <ul>
+                        <li><strong>Desgaste estrutural:</strong> Marcas e desgastes visíveis no teto e ventiladores pendentes antigos.</li>
+                        <li><strong>Mensagem motivacional:</strong> Quadro branco com a frase "Paraná: making education stronger every day!".</li>
+                        <li><strong>Engajamento dos estudantes:</strong> Alunos concentrados no aprendizado apesar das limitações físicas do ambiente.</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <!-- Imagem 5 -->
+        <div class="image-card">
+            <img src="quadra2.jpeg" alt="Complexo Esportivo Moderno">
+            <div class="card-content">
+                <span class="card-tag tag-after">Infraestrutura Esportiva</span>
+                <h2 class="card-title">5. Novo Complexo Esportivo Escolar (Est. 2026)</h2>
+                <div class="card-description">
+                    <p>Quadra poliesportiva coberta e totalmente equipada para diversas modalidades:</p>
+                    <ul>
+                        <li><strong>Marcações multiuso:</strong> Demarcações claras para Futsal, Basquete e Vôlei ("Main Court").</li>
+                        <li><strong>Comodidade e Segurança:</strong> Arquibancadas estruturadas, sistema de ventilação nas paredes e depósito de equipamentos.</li>
+                        <li><strong>Orientação técnica:</strong> Professor de educação física orientando as táticas do treino ("Let's start the drill!").</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <!-- Imagem 6 -->
+        <div class="image-card">
+            <img src="quadra1.jpeg" alt="Quadra Comunitária de Terra">
+            <div class="card-content">
+                <span class="card-tag tag-before">Espaço Comunitário</span>
+                <h2 class="card-title">6. Quadra de Futebol Comunitária</h2>
+                <div class="card-description">
+                    <p>Espaço de lazer e prática esportiva improvisado pela comunidade local:</p>
+                    <ul>
+                        <li><strong>Estrutura simples:</strong> Campo de terra/areia com trave metálica rustida e alambrado ao redor.</li>
+                        <li><strong>Convivência comunitária:</strong> Placa "Community Pitch - All Welcome" reforçando o acesso de todos os jovens da região.</li>
+                        <li><strong>Inclusão pelo esporte:</strong> Crianças reunidas praticando futebol no bairro.</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <footer>
+            <p>Relatório de Infraestrutura Escolar &copy; 2026 - Governo do Estado do Paraná</p>
+        </footer>
+    </div>
+
+</body>
+</html>
